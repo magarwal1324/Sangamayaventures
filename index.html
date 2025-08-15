@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sangamaya Ventures - Your AI Data Center Sourcing Partner</title>
+
+  <!-- SEO + Social -->
+  <meta name="description" content="Sangamaya Ventures - India's AI Data Center Sourcing Partner. Get fast, cost-effective AI & HPC infrastructure." />
+  <meta property="og:title" content="Sangamaya Ventures - AI Data Center Sourcing" />
+  <meta property="og:description" content="Procure and deliver AI, HPC, data center infrastructure superfast in India." />
+  <meta property="og:image" content="favicon.png" />
+  <meta property="og:url" content="https://sangamayaventures.com" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- TailwindCSS + Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="text-slate-800">
+
+  <!-- Header -->
+  <header class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 border-b border-slate-200">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-slate-900">Sangamaya <span class="text-amber-500">Ventures</span></h1>
+      <a href="#contact" class="cta-button bg-amber-500 text-white font-semibold px-6 py-2 rounded-lg shadow-md">Contact Us</a>
+    </div>
+  </header>
+
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section id="hero" class="py-20 md:py-32 bg-white">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl md:text-6xl font-bold text-slate-900 leading-tight">
+          Your Strategic Sourcing Partner for <br />
+          <span class="gradient-text">India's AI Data Center Boom</span>
+        </h2>
+        <p class="mt-6 text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+          We procure and deliver critical, globally-sourced IT infrastructure, helping you build high-performance AI data centers faster and more cost-effectively.
+        </p>
+        <div class="mt-8">
+          <a href="#contact" class="cta-button bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg shadow-lg">Request a Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Opportunity Section -->
+    <section id="opportunity" class="py-16 md:py-24">
+      <div class="container mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto">
+          <h3 class="text-3xl md:text-4xl font-bold text-slate-900">The AI Infrastructure Gold Rush is Here</h3>
+          <p class="mt-4 text-slate-600 text-lg">
+            The demand for AI-ready data centers in India is skyrocketing, creating unprecedented opportunities and significant supply chain challenges. We are here to bridge that gap.
+          </p>
+        </div>
+        <div class="mt-12">
+          <div class="bg-white p-6 rounded-2xl shadow-lg">
+            <h4 class="text-xl font-semibold text-center text-slate-800 mb-4">Projected Indian Data Center Market Growth (USD Billions)</h4>
+            <div class="chart-container">
+              <canvas id="marketGrowthChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Value Section -->
+    <section id="value" class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto">
+          <h3 class="text-3xl md:text-4xl font-bold text-slate-900">Eliminate Your Procurement Bottlenecks</h3>
+          <p class="mt-4 text-slate-600 text-lg">
+            Your projects can't afford delays. We specialize in navigating complex global supply chains to ensure you get the right components, right on time.
+          </p>
+        </div>
+        <div class="mt-12 grid md:grid-cols-3 gap-8">
+          <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 flex flex-col items-center">
+            <!-- Global Sourcing Icon -->
+            <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 2a9 9 0 0 1 9 9h-9zM12 22a9 9 0 0 0 9-9h-9zM2 12a9 9 0 0 1 9-9v18z" />
+            </svg>
+            <h4 class="mt-4 text-2xl font-semibold text-slate-900">Global Sourcing Access</h4>
+            <p class="mt-2 text-slate-600">
+              Leverage our established global network to source hard-to-find, specialized hardware for AI and HPC workloads. We find what others can't.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 flex flex-col items-center">
+            <!-- Delivery Truck Icon -->
+            <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path d="M3 17h1a3 3 0 1 0 6 0h4a3 3 0 1 0 6 0h1v-7h-6l-1-3H7v10z" />
+              <path d="M16 17h-5v-5h5v5z" />
+            </svg>
+            <h4 class="mt-4 text-2xl font-semibold text-slate-900">Accelerated Delivery</h4>
+            <p class="mt-2 text-slate-600">
+              Time is your most critical asset. We streamline logistics and customs to ensure faster delivery of essential components, keeping your project on schedule.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 flex flex-col items-center">
+            <!-- Cost Savings Icon -->
+            <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+            <h4 class="mt-4 text-2xl font-semibold text-slate-900">Cost-Effective Procurement</h4>
+            <p class="mt-2 text-slate-600">
+              Our expertise and volume purchasing power allow us to secure competitive pricing, passing on savings without compromising on quality or performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Ecosystem Section -->
+    <section id="products" class="py-16 md:py-24">
+      <div class="container mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto">
+          <h3 class="text-3xl md:text-4xl font-bold text-slate-900">The Complete AI Data Center Ecosystem</h3>
+          <p class="mt-4 text-slate-600 text-lg">
+            Building a high-performance AI data center requires a complex ecosystem of specialized components. We source everything from the rack to the router. Explore our capabilities by selecting a category below.
+          </p>
+        </div>
+        <div class="mt-12 flex flex-wrap justify-center gap-2 md:gap-4" id="product-filters">
+          <button class="filter-button active text-sm md:text-base font-medium px-4 py-2 rounded-full bg-white shadow-sm border border-slate-200" data-filter="all">
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-1 stroke-amber-500" fill="none" viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            All Components
+          </button>
+          <button class="filter-button text-sm md:text-base font-medium px-4 py-2 rounded-full bg-white shadow-sm border border-slate-200" data-filter="power">
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-1 stroke-amber-500" fill="none" viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+            Power
+          </button>
+          <button class="filter-button text-sm md:text-base font-medium px-4 py-2 rounded-full bg-white shadow-sm border border-slate-200" data-filter="cooling">
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-1 stroke-amber-500" fill="none" viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 2v20m10-10H2" />
+            </svg>
+            Cooling
+          </button>
+          <button class="filter-button text-sm md:text-base font-medium px-4 py-2 rounded-full bg-white shadow-sm border border-slate-200" data-filter="networking">
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-1 stroke-amber-500" fill="none" viewBox="0 0 24 24" stroke-width="2">
+              <rect x="3" y="4" width="18" height="16" rx="2" ry="2" />
+              <path d="M16 8h.01M8 8h.01M12 12h.01M16 16h.01M8 16h.01" />
+            </svg>
+            Networking
+          </button>
+          <button class="filter-button text-sm md:text-base font-medium px-4 py-2 rounded-full bg-white shadow-sm border border-slate-200" data-filter="security">
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-1 stroke-amber-500" fill="none" viewBox="0 0 24 24" stroke-width="2">
+              <path d="M12 2l9 4v6c0 5-3 9-9 12-6-3-9-7-9-12V6l9-4z" />
+            </svg>
+            Security
+          </button>
+          <button class="filter-button text-sm md:text-base font-medium px-4 py-2 rounded-full bg-white shadow-sm border border-slate-200" data-filter="infra">
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-1 stroke-amber-500" fill="none" viewBox="0 0 24 24" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.73z" />
+            </svg>
+            Racks & Infra
+          </button>
+        </div>
+        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="product-grid"></div>
+      </div>
+    </section>
+
+    <!-- AI Sourcing Assistant Section -->
+    <section id="ai-assistant" class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-8 md:p-12 border border-slate-200">
+          <div class="text-center">
+            <h3 class="text-3xl md:text-4xl font-bold text-slate-900">AI Sourcing Assistant</h3>
+            <p class="mt-4 text-slate-600 text-lg">
+              Have a technical question? Ask our AI assistant for an initial recommendation on components for your project.
+            </p>
+          </div>
+          <div id="ai-response-area" class="mt-6 p-6 bg-white rounded-lg min-h-[100px] text-slate-700 prose">
+            <p class="text-slate-500">Ask a question like: "What cooling solution do I need for a 60kW rack?" or "What are my options for 400G DACs?"</p>
+          </div>
+          <div id="ai-loader" class="hidden mt-6 flex justify-center"><div class="loader"></div></div>
+          <form id="ai-form" class="mt-6 flex gap-4">
+            <input type="text" id="ai-prompt-input" placeholder="Ask your sourcing question..." class="w-full px-4 py-3 rounded-lg bg-white border-slate-300 focus:ring-amber-500 focus:border-amber-500 transition" />
+            <button type="submit" class="cta-button bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg shadow-md">Ask</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Help Section -->
+    <section id="partners" class="py-16 md:py-24">
+      <div class="container mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto">
+          <h3 class="text-3xl md:text-4xl font-bold text-slate-900">Your Partner in Building India's AI Future</h3>
+          <p class="mt-4 text-slate-600 text-lg">We partner with the key players shaping the industry, from data center builders to system integrators.</p>
+        </div>
+        <div class="mt-12 grid md:grid-cols-3 gap-8 text-center">
+          <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h10M10 20h4" />
+            </svg>
+            <h4 class="text-2xl font-semibold text-slate-900">Data Center Builders</h4>
+            <p class="mt-2 text-slate-600">For players like Yotta & AdaniConneX, we act as a specialized procurement arm.</p>
+          </div>
+          <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="16" rx="2" ry="2" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 8h8M8 12h8M8 16h4" />
+            </svg>
+            <h4 class="text-2xl font-semibold text-slate-900">MEP Contractors</h4>
+            <p class="mt-2 text-slate-600">We supply the critical power, cooling, and safety systems that MEPs depend on.</p>
+          </div>
+          <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="3" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.4 15a7.97 7.97 0 01-14.8 0M6.2 9a7.97 7.97 0 0111.6 0" />
+            </svg>
+            <h4 class="text-2xl font-semibold text-slate-900">System Integrators</h4>
+            <p class="mt-2 text-slate-600">We provide the high-performance components SIs need to build out complex AI clusters.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="max-w-2xl mx-auto bg-slate-800 text-white rounded-2xl shadow-2xl p-8 md:p-12">
+          <div class="text-center flex flex-col items-center">
+            <!-- Contact Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-svg text-white mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" style="width:48px;height:48px;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16 12v6a2 2 0 01-2 2h-4a2 2 0 01-2-2v-6m10-2a2 2 0 00-2-2h-1.5a2 2 0 00-2 2v2h5.5zM8 10v4a2 2 0 002 2h4a2 2 0 002-2v-4" />
+            </svg>
+            <h3 class="text-3xl md:text-4xl font-bold">Let's Build Together</h3>
+            <p class="mt-4 text-slate-300 text-lg">Have a specific component requirement or need to discuss your next project? Reach out to our team of specialists.</p>
+          </div>
+          <form action="https://formspree.io/f/xblkpvrq" method="POST" class="mt-8 space-y-6" id="main-contact" novalidate>
+            <div>
+              <label for="name" class="sr-only">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name"
+                class="w-full px-4 py-3 rounded-lg bg-slate-700 border-slate-600 text-white focus:ring-amber-500 focus:border-amber-500 transition" />
+            </div>
+            <div>
+              <label for="company" class="sr-only">Company</label>
+              <input type="text" id="company" name="company" required placeholder="Your Company"
+                class="w-full px-4 py-3 rounded-lg bg-slate-700 border-slate-600 text-white focus:ring-amber-500 focus:border-amber-500 transition" />
+            </div>
+            <div>
+              <label for="email" class="sr-only">Email</label>
+              <input type="email" id="email" name="email" required placeholder="Email Address"
+                class="w-full px-4 py-3 rounded-lg bg-slate-700 border-slate-600 text-white focus:ring-amber-500 focus:border-amber-500 transition" />
+            </div>
+            <div>
+              <label for="message" class="sr-only">Message</label>
+              <textarea id="message" name="message" required rows="4" placeholder="How can we help?"
+                class="w-full px-4 py-3 rounded-lg bg-slate-700 border-slate-600 text-white focus:ring-amber-500 focus:border-amber-500 transition"></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="cta-button w-full md:w-auto bg-amber-500 text-white font-bold px-8 py-3 rounded-lg text-lg shadow-lg">Send Inquiry</button>
+            </div>
+            <p id="form-success" class="hidden text-green-400 mt-4 text-center font-semibold">Thanks! Your enquiry was sent. Our team will contact you soon.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 py-8">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2025 Sangamaya Ventures. All rights reserved.</p>
+      <p class="text-sm mt-2">Specializing in AI Data Center Infrastructure Procurement.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Chat Widget -->
+  <a href="https://wa.me/918250149410?text=Hi%20Sangamaya%20Ventures%20team%2C%20I'd%20like%20to%20discuss%20AI%20Data%20Center%20sourcing." target="_blank"
+    class="fixed bottom-8 right-8 bg-green-500 text-white rounded-full shadow-lg p-4 z-50 hover:bg-green-600 flex items-center"
+    style="font-size:18px;">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="28" height="28" viewBox="0 0 24 24" style="margin-right:8px;">
+      <path d="M19.043 4.957A9.996 9.996 0 0 0 12.013 2A9.99 9.99 0 0 0 2 12.008c0 1.768.462 3.479 1.34 4.989L2 22l5.102-1.332A10.014 10.014 0 0 0 12.013 22C17.525 22 22 17.523 22 12.008A9.97 9.97 0 0 0 19.043 4.957ZM12.013 19.684c-1.307 0-2.6-.292-3.782-.867l-.272-.135-3.022.788.808-2.942-.177-.297a7.945 7.945 0 0 1-1.252-4.246c0-4.421 3.592-8.017 8.078-8.017 2.157 0 4.183.841 5.707 2.369a7.951 7.951 0 0 1 2.368 5.651c.001 4.426-3.594 8.026-8.079 8.026Zm4.385-6.052l-1.271-.638c-.157-.078-.334-.118-.512-.118-.222 0-.433.068-.607.196l-.386.274a4.554 4.554 0 0 1-2.217-2.211l.271-.385c.273-.383.34-.864.181-1.302l-.483-1.267c-.205-.533-.745-.9-1.324-.9-.063 0-.126.005-.188.017-.204.039-.391.145-.526.308-.83 1.01-1.14 2.228-.88 3.368.365 1.571 1.695 3.018 3.294 3.55a3.14 3.14 0 0 0 1.03.175c1.169 0 1.974-.702 2.47-1.292.14-.166.238-.364.281-.578.073-.365-.081-.75-.39-.959z" />
+    </svg>
+    WhatsApp
+  </a>
+
+  <!-- Custom JS -->
+  <script src="app.js"></script>
+</body>
+</html>
